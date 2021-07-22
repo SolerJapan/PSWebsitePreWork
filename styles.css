@@ -1,0 +1,111 @@
+h1 {
+  
+}
+
+.big-heading {
+  font-family: Verdana;
+}
+
+.section-heading {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row wrap;
+  margin: 0px;
+  list-style: none; 
+  justify-content: flex-end;
+  background-color: aqua;
+  
+  
+}
+
+.nav__list-item {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+
+ 
+}
+
+.page {
+
+  
+}
+
+.page__header {
+ 
+
+}
+.page__content {
+  background-color: beige;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.left-content {
+  display: flex;
+  background-color: burlywood;
+  flex: 1 1 3%;  
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.right-content {
+  background-color: burlywood;
+  flex: 1 1 3%;
+  
+}
+
+.main-content {
+
+  background-color: rgb(196, 24, 24);
+  flex: 1 1 94%;
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-content__section {
+  background-color: cornsilk;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 1.6;
+  padding: 10px;
+  border-style: solid;
+ 
+
+}
+
+#hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: rgb(189, 189, 189);
+  height: 600px;
+}
+
+#about{
+  height: 400px;
+  width: 50%;
+  position: relative;
+  left: 250px;
+}
+
+#experience{
+
+  height:1000px;
+}
+
